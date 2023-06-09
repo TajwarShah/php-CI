@@ -46,7 +46,7 @@ class Post_model extends CI_Model {
         'body' => $this->input->post('body')
       );
       $this->db->where('id', $this->input->post('id'));
-      return $this->db->insert('posts', $data);
+      return $this->db->update('posts', $data);
     }
     
 }
