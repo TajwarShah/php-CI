@@ -16,3 +16,6 @@ table>thead{
     vertical-align: middle !important;
 }
 
+select {
+    margin-bottom: 28px;
+}
